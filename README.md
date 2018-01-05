@@ -1,4 +1,4 @@
-# Class Name Builder
+# Action Name Builder
 Class for building action names for Redux. It provides clean and simple syntax with optional groups and prefixes/suffixes. 
 
 Parameters can be mixed and matched, for example you can only pass suffix and group.
