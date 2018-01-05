@@ -20,9 +20,9 @@ const anb = new ActionNameBuilder(options);
 const anb = new ActionNameBuilder({ group: 'test' });
 const a = anb.make('something'); // returns [TEST] SOMETHING
 
-const anbUnderlined = new ActionNameBuilder({ group: 'another , underline: true });
+const anbUnderlined = new ActionNameBuilder({ group: 'another', underline: true });
 const b = anbUnderlined.make('something else'); // returns [ANOTHER]_SOMETHING_ELSE
 
 const anbWithoutGroup = new ActionNameBuilder();
 const c = anbWithoutGroup.make('something else'); // returns SOMETHING ELSE
- */
+```
