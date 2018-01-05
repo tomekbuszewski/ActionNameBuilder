@@ -7,9 +7,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tomekbuszewski/ClassNameBuilder"
+    "url": "https://github.com/tomekbuszewski/ActionNameBuilder"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
     "redux",
     "actions",
